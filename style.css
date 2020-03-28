@@ -10,7 +10,6 @@ section {
   height: 100vh;
 }
 .score {
-  /*color: rgb(224, 224, 224);*/
   color: black;
   height: 20%;
   display: flex;
@@ -26,7 +25,6 @@ section {
   font-size: 25px;
 }
 .intro {
-  /*color: rgb(224, 224, 224);*/
   color: black;
   height: 50vh;
   display: flex;
@@ -57,17 +55,17 @@ section {
 .rock {
   width: 50px !important;
   height: 50px !important;
-  background: url("image/handrock.png") no-repeat !important;
+  background: url("handrock.png") no-repeat !important;
 }
 .paper {
   width: 50px !important;
   height: 50px !important;
-  background: url("image/hand.png") no-repeat !important;
+  background: url("hand.png") no-repeat !important;
 }
 .scissors {
   width: 50px !important;
   height: 50px !important;
-  background: url("image/handscissors.png") no-repeat !important;
+  background: url("handscissors.png") no-repeat !important;
 }
 
 .restart {
