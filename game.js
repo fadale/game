@@ -49,8 +49,8 @@ document.getElementById("stext").style.display="none";
           //Here is where we call compare hands
           compareHands(this.textContent, computerChoice);
           //Update Images
-          playerHand.src = `./image/${this.textContent}.png`;
-          computerHand.src = `./image/${computerChoice}.png`;
+          playerHand.src = `./${this.textContent}.png`;
+          computerHand.src = `./${computerChoice}.png`;
         }, 2000);
         //Animation
         playerHand.style.animation = "shakePlayer 2s ease";
